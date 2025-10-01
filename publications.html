@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications - Davide Zanchetta</title>
     <link rel="stylesheet" href="style.css">
+    <script src="bibtex-parser.js"></script>
 </head>
 <body>
     <header>
@@ -18,26 +19,9 @@
     <main>
         <section>
             <h2>Publications</h2>
-            
-            <div class="publication-item">
-                <h3>Title of Publication 1</h3>
-                <p class="authors">Author 1, Author 2, Davide Zanchetta</p>
-                <p class="venue">Conference/Journal Name, Year</p>
-                <p>Brief description or abstract of the publication.</p>
-            </div>
-            
-            <div class="publication-item">
-                <h3>Title of Publication 2</h3>
-                <p class="authors">Davide Zanchetta, Co-author Name</p>
-                <p class="venue">Conference/Journal Name, Year</p>
-                <p>Brief description or abstract of the publication.</p>
-            </div>
-            
-            <div class="publication-item">
-                <h3>Title of Publication 3</h3>
-                <p class="authors">Multiple Authors, Davide Zanchetta, et al.</p>
-                <p class="venue">Conference/Journal Name, Year</p>
-                <p>Brief description or abstract of the publication.</p>
+            <div id="publications-container">
+                <!-- Publications will be loaded dynamically from publications.bib -->
+                <p>Loading publications...</p>
             </div>
         </section>
     </main>
