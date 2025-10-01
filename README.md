@@ -14,6 +14,8 @@ Personal webpage, mostly research- and career-themed.
 2. Add or modify BibTeX entries following the standard BibTeX format
 3. The publications page will automatically update to reflect changes
 
+**Note**: The BibTeX parser supports flexible formatting. Entries can have closing braces on the same line as the last field or on a new line.
+
 ### Supported BibTeX Entry Types
 - `@article`: Journal articles
 - `@inproceedings`: Conference papers
