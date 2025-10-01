@@ -9,7 +9,8 @@ class BibtexParser {
         this.entries = [];
         
         // Regular expression to match BibTeX entries
-        const entryRegex = /@(\w+)\{([^,]+),\s*([\s\S]*?)\n\}/g;
+        // Matches from @ to } that's followed by whitespace and either @ or end of string
+        const entryRegex = /@(\w+)\{([^,]+),\s*([\s\S]*?)\}(?=\s*(?:@|$))/g;
         let match;
 
         while ((match = entryRegex.exec(bibtexContent)) !== null) {
