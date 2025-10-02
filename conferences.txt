@@ -1,15 +1,22 @@
-name: International Conference on Complex Systems 2024
-date: July 15-18, 2024
-contribution type: Oral Presentation
-contribution title: Ecological patterns in metabolic networks
-url: https://example.com/iccs2024
-
-name: European Conference on Mathematical and Theoretical Biology
-date: September 2023
+name: SMEEB 2024
+date: May 28, 2024
 contribution type: Poster
-contribution title: Modelling forest dynamics after disturbance
+contribution title: Modelling post-disturbance patterns in a forest ecosystem
 
-name: Workshop on Network Science
-date: 2023
-contribution type: Invited Talk
-url: https://example.com/netscience2023
+
+name: PoLS 2024
+date: June 24, 2024
+contribution type: Flash Talk
+contribution title: Modelling ecosystem patterns far from equilibrium
+
+
+name: Young Biophysicist Meeting
+date: March 3, 2025
+contribution type: Talk (online)
+contribution title: Emergence of ecological structure and species rarity from fluctuating metabolic strategies
+
+
+name: CSS Bari 2025
+date: September 15, 2025
+contribution type: Talk
+contribution title: Pathogen evolution in epidemics & emerging fitness landscapes
