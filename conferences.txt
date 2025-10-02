@@ -4,7 +4,6 @@ contribution type: Poster
 contribution title: Modelling post-disturbance patterns in a forest ecosystem
 url: https://liphlab.github.io/SMEEB2024/
 
-
 name: PoLS 2024
 date: June 4, 2024
 contribution type: Flash Talk
@@ -16,7 +15,6 @@ date: March 3, 2025
 contribution type: Talk (online)
 contribution title: Emergence of ecological structure and species rarity from fluctuating metabolic strategies
 url: https://bsky.app/profile/youngbiophymeet.bsky.social
-
 
 name: CSS Bari 2025
 date: September 15, 2025
