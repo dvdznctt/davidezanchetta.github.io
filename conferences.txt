@@ -1,0 +1,15 @@
+name: International Conference on Complex Systems 2024
+date: July 15-18, 2024
+contribution type: Oral Presentation
+contribution title: Ecological patterns in metabolic networks
+url: https://example.com/iccs2024
+
+name: European Conference on Mathematical and Theoretical Biology
+date: September 2023
+contribution type: Poster
+contribution title: Modelling forest dynamics after disturbance
+
+name: Workshop on Network Science
+date: 2023
+contribution type: Invited Talk
+url: https://example.com/netscience2023

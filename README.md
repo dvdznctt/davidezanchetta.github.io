@@ -5,7 +5,8 @@ Personal webpage, mostly research- and career-themed.
 
 - **Dynamic Publications**: Publications are automatically loaded from a BibTeX file (`publications.bib`)
 - **BibTeX Support**: Add or update publications by editing the `publications.bib` file
-- **Automatic Rendering**: Publications are parsed and displayed automatically on page load
+- **Dynamic Conferences**: Conferences are automatically loaded from a text file (`conferences.txt`)
+- **Automatic Rendering**: Publications and conferences are parsed and displayed automatically on page load
 - **Responsive Design**: Clean, academic styling suitable for personal academic webpages
 - **Personal Profile Box**: Customizable profile section with picture, bio, and contact information
 
@@ -85,3 +86,40 @@ You can add more links to the profile box by adding additional `<a>` tags inside
 - `journal` or `booktitle`: Venue name
 - `year`: Publication year
 - `abstract`: Brief description (optional)
+
+## How to Update Conferences
+
+1. Edit the `conferences.txt` file
+2. Add or modify conference entries following the simple text format
+3. The conferences page will automatically update to reflect changes
+
+### Conference Entry Format
+
+Each conference entry should be separated by a blank line and follow this format:
+
+```
+name: Conference Name
+date: Date or Date Range
+contribution type: Type of contribution
+contribution title: Title of your contribution
+url: Link to conference website
+```
+
+**Note**: Only the `name` field is mandatory. All other fields are optional.
+
+### Supported Fields
+- `name`: Name of the conference (mandatory)
+- `date`: Date or date range of the conference
+- `contribution type`: Type of contribution (e.g., "Oral Presentation", "Poster", "Invited Talk")
+- `contribution title`: Title of your contribution at the conference
+- `url`: Link to the conference website or your contribution
+
+### Example Entry
+
+```
+name: International Conference on Complex Systems 2024
+date: July 15-18, 2024
+contribution type: Oral Presentation
+contribution title: Ecological patterns in metabolic networks
+url: https://example.com/iccs2024
+```
